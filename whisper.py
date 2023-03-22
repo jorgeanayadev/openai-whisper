@@ -41,7 +41,7 @@ def transcribe_audio(api_key, audio_file, response_format):
 
 def main():
     if len(sys.argv) != 4:
-        print("Usage: python whisper_to_subtitles.py <API_KEY> <AUDIO_FILE> <FORMAT_RESPONSE>")
+        print("Usage: python whisper.py <API_KEY> <AUDIO_FILE> <FORMAT_RESPONSE>")
         sys.exit(1)
 
     api_key = sys.argv[1]
